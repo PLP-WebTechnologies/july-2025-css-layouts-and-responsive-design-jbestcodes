@@ -61,7 +61,6 @@ nav a:hover {
   padding: 1.5rem 1rem;
 }
 
-/* Card row using Flexbox */
 .card-row {
   display: flex;
   gap: 1rem;
@@ -77,6 +76,23 @@ nav a:hover {
   min-width: 120px;
   text-align: center;
   box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+
+/* Responsive media (image) styles */
+.responsive-media {
+  margin: 2rem 0;
+  text-align: center;
+}
+.responsive-media img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.responsive-media figcaption {
+  font-size: 0.95rem;
+  color: #666;
+  margin-top: 0.5rem;
 }
 
 footer {
@@ -115,5 +131,3 @@ footer {
     min-width: 0;
   }
 }
-
-/* End of style.css */
